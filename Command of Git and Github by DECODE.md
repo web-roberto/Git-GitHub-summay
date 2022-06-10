@@ -1,4 +1,4 @@
-###### Comandos de Giy y Github de DECODE
+# Comandos de Giy y Github de DECODE
 ###### https://www.youtube.com/playlist?list=PLfYElkGZxzgb93uFgXw-mcCPvIYz4EFF6
 ###### ¿Queremos que publiquemos el proyecto en una dirección web?
 ###### SI: git branch  gh-pages  → crea la rama ‘gh-pages’
@@ -13,7 +13,7 @@
 ######     WEB EXTERIOR(de GithubPages) → https://web-roberto.github.io/portfolio-cv  
 ######     INTERNAMENTE → https://github.com/web-roberto/portfolio-cv 
 ######
-###### VIDEO 2: Instalación en Windows
+# VIDEO 2: Instalación en Windows
 ###### Descargar git para windows
 ###### git --version, git help
 ###### cd a la carpeta deseada, editar .gitignore y añadir carpetas a no copiar, git add .
