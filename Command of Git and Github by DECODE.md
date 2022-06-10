@@ -21,27 +21,16 @@
  Crear un usuario: git config --global user.name 'robertoweb'   Ver un usuario: git config --global user.name
  Añadir el email: git config --global user.email "roberto.alonso.gandia@gmail.com" Ver email: git config --global user.email
 
-###### VIDEO 3: instalacion en Debian y Linux
+## VIDEO 3: instalacion en Debian y Linux
   texto normal
-###### VIDEO 4: Comandos básicos: ADD, COMMIT y PUSH
-######
-###### VIDEO 5: Crear, modificar, eliminar ramas
-######
-###### VIDEO 6: Fusionar ramas
-######
-###### VIDEO 7: Git Pull de una rama
-######
-###### VIDEO 8: Git Fetch y Trucos de Git Log
-######
-###### VIDEO 9: Git clone + Fork. Clone vacio
-######
-###### VIDEO 10: Deshacer un commit. Revert+Reset
-######
-###### VIDEO 11: Rebase en Git
-######
-###### VIDEO 12: Gitignore
-######
-###### VIDEO 13: Tags
-######
-###### VIDEO 14: 7 Secretos. Git profesional
-######
+## VIDEO 4: Comandos básicos: ADD, COMMIT y PUSH
+## VIDEO 5: Crear, modificar, eliminar ramas
+## VIDEO 6: Fusionar ramas
+## VIDEO 7: Git Pull de una rama
+## VIDEO 8: Git Fetch y Trucos de Git Log
+## VIDEO 9: Git clone + Fork. Clone vacio
+## VIDEO 10: Deshacer un commit. Revert+Reset
+## VIDEO 11: Rebase en Git
+## VIDEO 12: Gitignore
+## VIDEO 13: Tags
+## VIDEO 14: 7 Secretos. Git profesional
