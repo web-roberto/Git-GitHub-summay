@@ -47,7 +47,7 @@ ___
 <!-- IMAGES -->
 <!-- ![Vscode Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png) -->
 
-<!-- ![Vscode logo](./vscode.png "vscode") -->
+<!-- ![Vscode logo](vscode.png "vscode") -->
 
 <!-- GITHUB MD: we say the language(python,JS,html) to paint 3 back ticks+language -->
 ```
