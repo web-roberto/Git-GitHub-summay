@@ -19,7 +19,7 @@ ___
 1. Crear una carpeta para descargar un clon de Github del proyecto Nodejs + Mysql ya correcto
 1. Clonar un proyecto hecho.  Ejemplo: Nodejs y Mysql ya creado
     de Dominicode https://github.com/domini-code/node_mysql
-    `git clone https://github.com/domini-code/node_mysql.git`
+    Descargar el zip
 1. Ir a la carpeta, 'code .' para abrir en VSCode. Editar package.json y poner en 'dependencias' express y mysql
 1. No hacemos 'npm install' pq no queremos ejecutarlo aqui. Suponemos que ya funciona la aplicación.
 1. Hacemos 'ctrl + ñ' y hacemos 'heroku login'. Nos logeamos
