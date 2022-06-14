@@ -31,7 +31,7 @@ ___
 1. Comprobamos que está creado el nuevo repositorio remoto: `git remote -v` . Ya podemos hacer un 'push' de nuestro 'master'.
 Recordar que al hacer el `git clone` ser creo un git local
 1. `git status` `git add package.json` `git commit -m "package changed"`
-1. Subimos del repositorio local al remoto de Heroku `git push heroku master`
+1. Subimos del repositorio local al remoto de Heroku `git push heroku main`
 1. Vamos a la pagina donde publica nuestra API de node y nos dice que hay un error. Vamos a ver el log de los errores
 1. `heroku logs --tail`
 ## en Heroku la BDD por defecto es Postgres, pero usaremos Mysql
@@ -51,7 +51,7 @@ El formato es: mysql://<usuario>:<password>/<host>/<nombreBDD>?reconnect=true
 1.  `git status`
 1. `git add .`
 1. `git commit -m "Mysql connection set in the code of Nodejs"`
-1. `git push heroku master`
+1. `git push heroku main`
 1. Refrescamos la URL de mi API en el navegador y sale 'Welcome to my API' que es la respuesta a la ruta /
 ## Vamos a POSTMAN a probar todas la rutas
 1. Copiamos la URL de nuestra API añadiendo las rutas y comprobamos un GET
