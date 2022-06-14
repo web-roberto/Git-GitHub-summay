@@ -6,8 +6,8 @@ Mis cuentas en Heroku:
 * roberto.alonso.heroku2@gmail.com/Adosat2020@
 
 * Videos relacionados:
-  * [Video despliegue en Heroku de Nodejs y Mysql](https://www.youtube.com/watch?v=FEK2i4f8gNU "Click to go to the Video")
-  * [Video Using Heroku Config Vars](https://www.youtube.com/watch?v=dw1y7qwNb4E&t=647s "Click to go to the Video")
+  * [Video despliegue en Heroku de Nodejs y Mysql](https://www.youtube.com/watch?v=dw1y7qwNb4E&t=647s "Click to go to the Video")
+  * [Video Using Heroku Config Vars](https://www.youtube.com/watch?v=FEK2i4f8gNU "Click to go to the Video")
 ___
 * Software necesario:
   * Postman -> testear nuestra API
@@ -43,7 +43,7 @@ El formato es: mysql://<usuario>:<password>/<host>/<nombreBDD>?reconnect=true
 1. Creamos la variable DATABASE_URL: `heroku config:set DATABASE_URL='<cadena de arriba de mysql://>' -> entre comillas simples `
 1. Vamos al app.js y cambiamos el usuario, password, base de datos de la cadena de conexión que tenemos
 1. Debemos usar variables de entorno como dice en este video y no dentro del código: 
-[Video Using Heroku Config Vars](https://www.youtube.com/watch?v=dw1y7qwNb4E&t=647s "Click to go to the Video")
+[Video Using Heroku Config Vars](https://www.youtube.com/watch?v=FEK2i4f8gNU "Click to go to the Video")
 ### El addon ya está creado. Ahora necesitamos crear una tabla
 1. Abrimos nuestro cliente de BDD, Heidi por ejemplo y nos conectamos a la BDD de Mysql en Heroku usando la cadena de conexión
 1. Creamos mi tabla 'customers'con mis campos 'name varchar 150, city varchar 100'
@@ -58,7 +58,7 @@ El formato es: mysql://<usuario>:<password>/<host>/<nombreBDD>?reconnect=true
 1. Comprobamos un POST (nuevo registro de la tabla)
 1. Comprobamos un DELETE
 ## Cambiamos a un fichero externo el USUARIO, CONTRASEÑA, BDD 
-[Video Using Heroku Config Vars](https://www.youtube.com/watch?v=dw1y7qwNb4E&t=647s "Click to go to the Video")
+[Video Using Heroku Config Vars](https://www.youtube.com/watch?v=FEK2i4f8gNU "Click to go to the Video")
 1. Vamos a Heroku, a nuestra aplicacion, en Settings al final pone 'Reveal Config Vars'. Ponemos un KEY y un VALUE.
 Estas son las variables de entorno que yo leo dentro de mi Node con process.env.<VARIABLE_ENTORNO>
 1. Cambiamos nuestro codigo y ponemos las process.env y lo subimos todo otra vez 
